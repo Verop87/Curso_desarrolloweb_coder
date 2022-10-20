@@ -1,0 +1,107 @@
+/* Areas comunes a todos los html */
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: rgba(12, 12, 12, 0.822);
+}
+
+h1{
+    text-align: center;
+    color: rgb(221, 34, 34);
+    width: 100vw;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.inicio_main_section_article_div ul{
+    color: black;
+    background-color:rgb(221, 34, 34);
+    text-align: center;
+    font-family: Georgia;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.inicio_main_section_article_div li{
+    align-items: center;
+    display: inline;
+    margin-right: 30px;
+}
+
+/* Area específica para Home */
+
+.inicio_section_article ul{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    text-align: end;
+    list-style: none;
+    
+}
+
+.inicio_section_article li{
+    display: inline;
+    color: antiquewhite;
+    padding-top: 30px;
+    text-align-last: left;
+    margin: 20px 20px 20px 20px;
+    
+}
+
+.inicio_section_article p{
+    text-align: end;
+    margin-top: 20px;
+}
+
+
+.contacto_header_main {
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    font-family: Georgia;
+    border:0px;
+    
+}
+
+textarea{
+    width: 100px;
+    height: 100px;
+}
+
+.contacto_header_main div{
+    background-color: rgb(226, 43, 52);
+    border: 0px;
+    position: absolute;
+    padding: 20px;
+    width: 95%;
+    height: 10px;
+    width: 1000px;
+    text-align: justify;
+    padding: 20px;
+}
+
+label{
+    text-decoration: antiquewhite;
+    color: antiquewhite;
+    margin: 20px;
+}
+.text_box input{
+    width: 100px;
+    height: 50px;
+}
+p{
+    color: antiquewhite;
+}
+footer{
+    margin-top: 80%;
+    align-content: center;
+    width: 100vw;
+
+    
+    
+}
